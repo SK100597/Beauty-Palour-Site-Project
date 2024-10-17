@@ -1,0 +1,498 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-psd/3d-rendering-beauty-banner_23-2150159867.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: auto 906px;
+    padding: 20px;
+}
+
+/* logo section */
+
+.dancing-script{
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px 0px 50px 50px;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    filter: brightness(3);
+    animation: logo 5s infinite;
+}
+
+@keyframes logo{
+    0% {filter: blur(100%);}
+    50% {filter: none;}
+    100% {filter: blur(50%);}
+    
+}
+
+/* navbar section */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 45%;
+    
+}
+
+header .manu ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    font-size: 30px;
+    list-style: none;
+
+}
+
+header .manu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #757575;
+    padding: 5px 10px;
+    font-weight: 500;
+    width: 200px;
+    border-radius: 15px 0px 15px 0px;
+
+}
+
+header .manu ul li a:hover{
+    color: #757575;
+    background-color: #ffffff;
+}
+
+
+
+/* Bridal Section */
+.bridalmain .maincon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    background-color: #31313110;
+    padding: 30px 30px 0px 30px;
+    border-radius: 30px;
+}
+
+.bridalmain .maincon .subcon1 h2{
+    font-family: "Dancing Script";
+    font-size: 200px;
+    color: #fce3c5;
+    text-shadow: 4px 6px #000000;
+    margin-bottom: 30px;
+    
+}
+
+.bridalmain .maincon .subcon1 span{
+    font-size: 60px;
+    font-weight: 600;
+    color: #7f00b1;
+    
+}
+
+.bridalmain .maincon .subcon1 p{
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.bridalmain .maincon .subcon1 .bridalbutton button{
+    padding: 10px;
+    margin: 30px 0px;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    background: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #48009b;
+
+}
+
+.bridalmain .maincon .subcon1 .bridalbutton button a{
+    text-decoration: none;
+}
+
+
+.bridalmain .maincon .subcon1 .bridalbutton .booknow{
+    margin-left: 30px;
+}
+
+
+.bridalmain .maincon .subcon2 img{
+    width: 650px;
+    height: 650px;
+}
+
+/* Makeup section */
+/* Makeup Title */
+.makeup{
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.makeup .mmaincon .msubcon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-top: 50px;
+    
+}
+
+.makeup .mmaincon .msubcon1 span{
+    font-family: "Dancing Script";
+    font-size: 46px;
+    font-weight: 700;
+
+}
+
+.makeup .mmaincon .msubcon1 h2{
+    font-size: 70px;
+    background-color: #c0a27d;
+    color: #ffffff;
+
+}
+
+.makeup .mmaincon .msubcon1 p{
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* makeup carts */
+
+.makeup .mmaincon .msubcon2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 20px;
+
+}
+
+.makeup .mmaincon .msubcon2 .mcart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.makeup .mmaincon .msubcon2 .mcart1 .texttital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.makeup .mmaincon .msubcon2 .mcart1 .texttital h4{
+    position: absolute;
+    font-size: 100px;
+    margin-top: -40px;
+    color: #8181815d;
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.makeup .mmaincon .msubcon2 .mcart1:hover .texttital h4{
+    color: #818181b0;
+    
+}
+
+
+.makeup .mmaincon .msubcon2 .mcart1 .texttital h6{
+    font-size: 36px;
+    z-index: 99;
+    
+}
+
+.makeup .mmaincon .msubcon2 .mcart1 .imagewithdetail .cimageanddetail img{
+    width: 300px;
+    height: 400px;
+
+}
+
+.makeup .mmaincon .msubcon2 .mcart1 .imagewithdetail .cdetail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: auto;
+    padding: 20px 10px;
+    width: 280px;
+    height: 85px;
+    background-color: #000000;
+    position: absolute;
+    display: none;
+    margin-top: 0px;
+    
+}
+
+.makeup .mmaincon .msubcon2 .mcart1:hover .imagewithdetail .cdetail{
+    display: block;
+    margin-top: -125px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.makeup .mmaincon .msubcon2 .mcart1 .imagewithdetail .cdetail h3{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.makeup .mmaincon .msubcon2 .mcart1 .imagewithdetail .cdetail p{
+    font-size: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+
+}
+
+/* Princing Section */
+/* image section */
+section.pricing{
+    background-color: #ffffff;
+}
+
+section.pricing .pmaincon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+}
+
+section.pricing .pmaincon .pimage{
+    background-color: #757575;
+    width: 520px;
+    height: 575px;
+}
+
+
+section.pricing .pmaincon .pimage img{
+    width: 550px;
+    height: 575px;
+
+}
+
+/* pricing section */
+section.pricing .pmaincon .ppricing{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+
+section.pricing .pmaincon .ppricing .pdetial{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0px 30px 0px 0px;
+
+}
+
+section.pricing .pmaincon .ppricing .pdetial h2{
+    font-size: 42px;
+    
+}
+
+section.pricing .pmaincon .ppricing .pdetial p{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.pricing .pmaincon .ppricing .pricing{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+/* Pricing Button section */
+
+section.pricing .pmaincon .ppricing .pricing .pbutton button{
+    padding: 10px 15px;
+    background-color: #818181;
+    border: none;
+    color: #ffffff;
+    margin-right: 10px;
+
+}
+
+section.pricing .pmaincon .ppricing .pricing .pbutton button:hover{
+    background-color: #c0a27d;
+}
+
+
+/* pricing list section */
+
+section.pricing .pmaincon .ppricing .pricing .plist{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 50px;
+
+}
+
+section.pricing .pmaincon .ppricing .pricing .plist .list1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 22px;
+}
+
+
+section.pricing .pmaincon .ppricing .pricing .plist .list1 h3{
+    font-size: 28px;
+    text-transform: capitalize;
+
+}
+
+section.pricing .pmaincon .ppricing .pricing .plist .list1 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    list-style:none;
+    text-transform:uppercase;
+    width: 340px;
+
+}
+
+section.pricing .pmaincon .ppricing .pricing .plist .list1 ul span{
+    color: #7c2e2e;
+} 
+
+/* Portfolio section */
+.portfolio{
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+
+.portfolio .mmaincon .msubcon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-top: 50px;
+    
+}
+
+.portfolio .mmaincon .msubcon1 span{
+    font-family: "Dancing Script";
+    font-size: 26px;
+    font-weight: 800;
+    color: #8a7051;
+
+}
+
+.portfolio .mmaincon .msubcon1 h2{
+    font-size: 56px;
+    color: #000000;
+
+}
+
+.portfolio .mmaincon .msubcon1 p{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+/* portfolio cart section */
+.portfolio .mmaincon .pphotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+.portfolio .mmaincon .pphotos .cart2 .cimageanddetail img{
+    height: 375px !important;
+}
+
+.portfolio .mmaincon .pphotos .cart4 .cimageanddetail img{
+    height: 375px !important;
+}
+
+.portfolio .mmaincon .pphotos .cart5 .cimageanddetail img{
+    height: 375px !important;
+}
+
+.portfolio .mmaincon .pphotos .cart5 .cimageanddetail{
+    margin-top: -100px !important;
+}
+
+.portfolio .mmaincon .pphotos .cart7 .cimageanddetail img{
+    height: 375px !important;
+
+}
+
+.portfolio .mmaincon .pphotos .cart7 .cimageanddetail{
+    margin-top: -100px !important;
+}
+
+.portfolio .mmaincon .pphotos .mcart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.portfolio .mmaincon .pphotos .mcart1 .cimageanddetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.portfolio .mmaincon .pphotos .mcart1 .cimageanddetail img{
+    width: 275px;
+    height: 275px;
+
+}
+
+.portfolio .mmaincon .pphotos .mcart1 .cdetail{
+    display: flex;
+    align-content: center;
+    row-gap: 10px;
+    width: 225px;
+    height:230px;
+    background-color: #000000c4;
+    position: absolute;
+    display: none;
+    padding: 10px;
+    
+}
+
+.portfolio .mmaincon .pphotos .mcart1:hover .cdetail{
+    display: block;
+    margin-top: 0px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.portfolio .mmaincon .pphotos .mcart1 .cdetail h3{
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.portfolio .mmaincon .pphotos .mcart1 .cdetail p{
+    font-size: 16px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+
+}

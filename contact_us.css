@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-psd/3d-rendering-beauty-banner_23-2150159867.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1500px;
+    padding: 20px;
+}
+
+/* logo section */
+
+.dancing-script{
+    font-family: "Dancing Script";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px 0px 50px 50px;
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    filter: brightness(3);
+    animation: logo 5s infinite;
+}
+
+@keyframes logo{
+    0% {filter: blur(100%);}
+    50% {filter: none;}
+    100% {filter: blur(50%);}
+    
+}
+
+.contactdetails .contmaincon{
+    background-image: url(https://kendall.qodeinteractive.com/wp-content/uploads/2016/10/16pages-title-img.jpg);
+    background-size: auto 500px;
+    background-repeat: no-repeat;
+    margin-top: -18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactdetails .contmaincon .contdetails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
+}
+
+.contactdetails .contmaincon .contdetails h2{
+    font-size: 100px;
+    font-family: "Dancing Script";
+    color: #e01013;
+    text-shadow: 3px 4px #ffffff;
+
+}
+
+.contactdetails .contmaincon .contdetails p{
+    font-size: 22px;
+    color: #ffffff;
+    width: 800px;
+    text-align: center;
+}
+
+.contactdetails .contmaincon .contform{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+
+
+.contactdetails .contmaincon .contform form input{
+    padding: 15px;
+    background: none;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
+.contactdetails .contmaincon .contform .form1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.contactdetails .contmaincon .contform .form2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.contactdetails .contmaincon .contform .form2 textarea{
+    font-size: 16px;
+    padding: 4.5px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    width: 550px;
+    
+}
+
+.contactdetails .contmaincon .contform .form2 button{
+    width: 100px;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+}
+
+/* Footer section */
+
+.footercon{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff38;
+    margin-top: 50px;
+}
+
+.footercon .addandmap{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footercon .addandmap .map{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footercon .addandmap .contectus{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 30px 0px;
+
+}
+
+.footercon .addandmap .contectus .csubcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footercon .addandmap .contectus .csubcon p{
+    font-size: 18px;
+}
+
+.footercon .icons{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.footercon .icons i{
+    display: flex;
+    filter: grayscale(100%);
+
+}
+
+.footercon .icons i:hover{
+    filter: grayscale(0%);
+}
+
+.footercon .icons i svg{
+    color: #ffffff;
+}
